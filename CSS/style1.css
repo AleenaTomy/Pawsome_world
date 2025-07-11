@@ -184,4 +184,94 @@ main section ul li {
   content: " 🐾";
 }
 
+/* quiz */
 
+/* General form styling */
+.quiz-form {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff8f0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.quiz-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #4b2e83;
+}
+
+.quiz-form p {
+  font-weight: 600;
+}
+
+.quiz-form label {
+  display: block;
+  margin: 0.3rem 0;
+  cursor: pointer;
+}
+
+.quiz-form input[type="text"],
+.quiz-form input[type="email"] {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.quiz-form fieldset {
+  border: 2px dashed #f4a261;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: #fff;
+}
+
+.quiz-form legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e76f51;
+  padding: 0 0.5rem;
+}
+
+.quiz-form button[type="submit"] {
+  display: block;
+  background: #2a9d8f;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 1rem auto;
+  transition: background 0.3s ease;
+}
+
+.quiz-form button[type="submit"]:hover {
+  background: #21867a;
+}
+
+#quizResult {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #264653;
+}
+
+/* Add paw emoji to the submit button */
+.quiz-form button[type="submit"]::before {
+  content: "🐾 ";
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .quiz-form {
+    padding: 1rem;
+  }
+}
