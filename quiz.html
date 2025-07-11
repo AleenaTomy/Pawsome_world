@@ -72,8 +72,94 @@
   <main>
   
     <section class="quiz-form">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVQrodEqD_3BO30Fr42RJJBUca6uxnVD-sDdJWM_pK6un66A/viewform?embedded=true" width="640" height="2933" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </section>
+  <h2>🐕‍🦺 Test Your Dog Knowledge! 🐾</h2>
+  <p>Are you a real dog lover? Take this fun quiz and see how much you know! 🦴</p>
+  
+  <form id="quizForm">
+    <label for="name">🐶 Your Name:</label><br />
+    <input type="text" id="name" name="name" required><br />
+
+    <label for="email">📧 Your Email:</label><br />
+    <input type="email" id="email" name="email" ><br />
+
+    <fieldset>
+      <legend>🏃‍♂️ Speed & Popularity</legend>
+
+      <p>1️⃣ Which breed is known as the fastest dog in the world?</p>
+      <label><input type="radio" name="q1" value="Beagle" required> Beagle</label><br>
+      <label><input type="radio" name="q1" value="Greyhound"> Greyhound</label><br>
+      <label><input type="radio" name="q1" value="Bulldog"> Bulldog</label><br>
+      <label><input type="radio" name="q1" value="Poodle"> Poodle</label><br>
+
+      <p>2️⃣ What is the most popular dog breed in the world?</p>
+      <label><input type="radio" name="q2" value="German Shepherd" required> German Shepherd</label><br>
+      <label><input type="radio" name="q2" value="Border Collie"> Border Collie</label><br>
+      <label><input type="radio" name="q2" value="Labrador Retriever"> Labrador Retriever</label><br>
+      <label><input type="radio" name="q2" value="Pitbull"> Pitbull</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>🦷 Senses & Anatomy</legend>
+
+      <p>3️⃣ How many teeth does an adult dog typically have?</p>
+      <label><input type="radio" name="q3" value="28" required> 28</label><br>
+      <label><input type="radio" name="q3" value="30"> 30</label><br>
+      <label><input type="radio" name="q3" value="42"> 42</label><br>
+      <label><input type="radio" name="q3" value="35"> 35</label><br>
+
+      <p>4️⃣ Which sense is most developed in dogs?</p>
+      <label><input type="radio" name="q4" value="Taste" required> Taste</label><br>
+      <label><input type="radio" name="q4" value="Hearing"> Hearing</label><br>
+      <label><input type="radio" name="q4" value="Sight"> Sight</label><br>
+      <label><input type="radio" name="q4" value="Smell"> Smell</label><br>
+
+      <p>5️⃣ What is the smallest dog breed?</p>
+      <label><input type="radio" name="q5" value="Poodle" required> Poodle</label><br>
+      <label><input type="radio" name="q5" value="Yorkshire Terrier"> Yorkshire Terrier</label><br>
+      <label><input type="radio" name="q5" value="Chihuahua"> Chihuahua</label><br>
+      <label><input type="radio" name="q5" value="Shih Tzu"> Shih Tzu</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>🐕 Fun Facts</legend>
+
+      <p>6️⃣ True or False: Dalmatians are born with spots.</p>
+      <label><input type="radio" name="q6" value="True" required> True</label><br>
+      <label><input type="radio" name="q6" value="False"> False</label><br>
+
+      <p>7️⃣ Which dog has a blue-black tongue?</p>
+      <label><input type="radio" name="q7" value="Bulldog" required> Bulldog</label><br>
+      <label><input type="radio" name="q7" value="Doberman"> Doberman</label><br>
+      <label><input type="radio" name="q7" value="Chow Chow"> Chow Chow</label><br>
+      <label><input type="radio" name="q7" value="Beagle"> Beagle</label><br>
+
+      <p>8️⃣ How many eyelids do dogs have?</p>
+      <label><input type="radio" name="q8" value="1" required> 1</label><br>
+      <label><input type="radio" name="q8" value="2"> 2</label><br>
+      <label><input type="radio" name="q8" value="3"> 3</label><br>
+      <label><input type="radio" name="q8" value="4"> 4</label><br>
+
+      <p>9️⃣ True or False: Dogs can only see in black and white.</p>
+      <label><input type="radio" name="q9" value="True" required> True</label><br>
+      <label><input type="radio" name="q9" value="False"> False</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>💪 Big Dogs</legend>
+
+      <p>🔟 What is the largest dog breed by weight?</p>
+      <label><input type="radio" name="q10" value="Saint Bernard" required> Saint Bernard</label><br>
+      <label><input type="radio" name="q10" value="Great Dane"> Great Dane</label><br>
+      <label><input type="radio" name="q10" value="English Mastiff"> English Mastiff</label><br>
+      <label><input type="radio" name="q10" value="Newfoundland"> Newfoundland</label><br>
+    </fieldset>
+
+    <button type="submit"> Submit Quiz</button>
+  </form>
+
+  <div id="quizResult"></div>
+</section>
+    
 
     <section class="dog-facts">
       <h2>Did You Know?</h2>
@@ -147,6 +233,7 @@
   <script src="JS_Files/Side_menu.js"></script>
   <script src="JS_Files/back-to-top.js"></script>
   <script src="JS_Files/Privacy_TOC.js"></script>
+  <script src="JS_Files/quiz.js"></script>
 
 </body>
 </html>
