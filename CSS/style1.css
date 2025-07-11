@@ -1,0 +1,187 @@
+/* Quizz Page*/
+/* Main */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.quiz-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.quiz-tips {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.quiz-tips li {
+  margin: 0.5rem 0;
+}
+
+.quiz-btn {
+  display: inline-block;
+  background: #ff9800;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quiz-btn:hover {
+  background: #e68a00;
+}
+
+.dog-facts {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dog-facts h2 {
+  margin-bottom: 1rem;
+}
+
+.dog-facts ul {
+  list-style: none;
+}
+
+.dog-facts li {
+  margin-bottom: 0.5rem;
+}
+/* About Page*/
+
+main section {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1.5rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main section h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 0.3rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+main section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 0;
+}
+
+main section ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+main section ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Contact Page */
+
+.contact-form {
+  max-width: 600px;
+  margin: 3rem auto;
+  background: #f5fafa; /* Light, soft background */
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  border: 4px dashed #4A6572;
+  position: relative;
+}
+
+.contact-form::before {
+  content: "🐶 Woof!";
+  position: absolute;
+  top: -1.5rem;
+  left: 1rem;
+  background: #4A6572;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 2px solid #b0c4c9;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4A6572;
+  box-shadow: 0 0 0 3px rgba(74, 101, 114, 0.3);
+  outline: none;
+}
+
+.contact-form button {
+  margin-top: 2rem;
+  background: linear-gradient(135deg, #4A6572, #36515e);
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  color:#FFD166;
+;
+}
+
+.contact-form button::after {
+  content: " 🐾";
+}
+
+

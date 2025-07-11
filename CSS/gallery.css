@@ -1,0 +1,69 @@
+header {
+  background: #4A6572; /* Muted Royal Blue */
+  color: #fff;
+  border-radius: 0 0 20px 20px;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Baloo 2', cursive; 
+  border-radius: 0 0 20px 20px; 
+}
+
+/* Style the main heading inside header */
+header h1 {
+  font-size: 4.5rem; 
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.tagline {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 0;
+   color: #D9DBE1; /* Soft gray accent */
+}
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+nav a:hover {
+
+  color: #FFD166;
+}
+
+/* Gallery Section */
+.gallery-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-page h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.8rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+

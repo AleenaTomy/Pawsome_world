@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333;
+  background: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  align-items: flex-start; /* this helps align image and text nicely */
+}
+
+.image-wrapper {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+main img {
+  max-width: 300px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.details {
+  flex: 1;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.details p {
+  margin: 6px 0 16px 0;
+  line-height: 1.5;
+}
+
+.description {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
