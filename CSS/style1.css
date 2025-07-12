@@ -214,6 +214,14 @@ main section ul li {
   cursor: pointer;
 }
 
+/* Red asterisk for required fields */
+.required {
+  color: red;
+  margin-left: 0.2rem;
+  font-weight: bold;
+}
+
+
 .quiz-form input[type="text"],
 .quiz-form input[type="email"] {
   width: 100%;
