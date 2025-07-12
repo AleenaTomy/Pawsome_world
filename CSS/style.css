@@ -469,7 +469,7 @@ body.dark-mode .side-social a {
 /* ===== Responsive Styles ===== */
 
 /* Small devices (phones, up to 600px) */
- @media (max-width: 600px) {
+@media (max-width: 600px) {
 
 
   /* Hero gallery stacked vertically */
@@ -490,6 +490,13 @@ body.dark-mode .side-social a {
     padding: 10px;
   }
 }
+
+/* Medium devices (tablets, up to 900px) */
+@media (max-width: 900px) {
+  /* Featured breeds grid 2 columns */
+  .breed-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   header h1 {
     font-size: 3.5rem;
