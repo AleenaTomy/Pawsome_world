@@ -1,50 +1,78 @@
-/* ===== Breeds Page Responsive ===== */
+/* =============================
+   BREEDS PAGE RESPONSIVE STYLES
+   ============================= */
 
-/* Mobile styles for breeds page only */
-@media (max-width: 600px) {
-  /* Make breed cards stack in 1 column */
+/* Make the breed cards a grid */
+.breed-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Make sure each card fills its grid cell */
+.breed-card {
+  background: #fff; /* optional: white background */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.breed-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Make images responsive */
+.breed-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Card content spacing */
+.breed-card h3,
+.breed-card p {
+  padding: 0 15px;
+}
+
+.breed-card p {
+  flex-grow: 1;
+}
+
+.breed-card .button {
+  display: block;
+  margin: 15px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.breed-card .button:hover {
+  background: #555;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
   .breed-cards {
-    display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .breed-cards {
+    grid-template-columns: 1fr;
     padding: 10px;
   }
 
   .breed-card {
-    width: 100%;
-  }
-
-  /* Make images responsive */
-  .breed-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Center text if needed */
-  .breed-card h3,
-  .breed-card p {
-    text-align: center;
-  }
-
-  /* Adjust buttons */
-  .breed-card button {
-    display: block;
-    width: 100%;
     margin: 0 auto;
-  }
-
-  /* Optional: reduce font size for smaller screens */
-  .breed-card p {
-    font-size: 0.9rem;
-  }
-}
-
-/* Tablet styles for breeds page only */
-@media (min-width: 601px) and (max-width: 900px) {
-  .breed-cards {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 15px;
   }
 }
