@@ -216,7 +216,7 @@ main section ul li {
 
 /* Red asterisk for required fields */
 .required {
-  color: red;
+  color: #FF0000;
   margin-left: 0.2rem;
   font-weight: bold;
 }
