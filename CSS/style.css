@@ -467,34 +467,8 @@ body.dark-mode .side-social a {
 }
 
 
-/* ===== Responsive Styles ===== */
-
-/* Small devices (phones, up to 600px) */
-@media (max-width: 600px) {
-
-
-  /* Hero gallery stacked vertically */
-  .hero-gallery {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .hero-gallery img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Featured breeds grid changes to 1 column */
-  .breed-cards {
-    grid-template-columns: 1fr;
-    gap: 15px;
-    padding: 10px;
-  }
-}
-
 /* Medium devices (tablets, up to 900px) */
 @media (max-width: 900px) {
-  /* Featured breeds grid 2 columns */
   .breed-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -504,11 +478,13 @@ body.dark-mode .side-social a {
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+  .breed-cards {
+    grid-template-columns: 1fr;
+  }
 }
+
 
 /* privacy & TOC */
 
