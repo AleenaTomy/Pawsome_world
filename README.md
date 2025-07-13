@@ -99,23 +99,23 @@ This project uses only modern, native web technologies:
 ## 📂 Folder Structure
 
 
-Pawsome_world/
-│
+Pawsome_World/
 ├── index.html
 ├── breeds.html
 ├── css/
-│   └── styles.css
-├── images/
-│   ├── paw_prints.png
-│   ├── greyhusky.cur
-│   ├── (breed images...)
-│   └── (gallery images...)
+│ ├── style.css
+│ └── breeds.css
 ├── js/
-│   └── script.js (if you separate your JS)
-├── screenshots/
-│   ├── screenshot-desktop.png
-│   └── screenshot-mobile.png
-└── README.md
+│ ├── main.js
+│ └── breeds.js
+├── images/
+│ ├── logo.png
+│ ├── paw_prints.png
+│ ├── hero1.jpg
+│ ├── hero2.jpg
+│ ├── ...
+├── README.md
+├── LICENSE
 
 ## 👩‍💻 Author
 
