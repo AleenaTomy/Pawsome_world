@@ -52,7 +52,7 @@ Here’s what makes **Pawsome World** shine:
 ## 📸 Screenshots
 
 
-## Desktop
+ Desktop
 
 🏠 Home Page
 <img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/d46299e0-cf7a-48a3-9137-b82dd3d30e16" />
@@ -79,7 +79,7 @@ The About Page shares information about the purpose of Pawsome World, its missio
 The Contact Page provides a simple way for users to reach out. It includes a contact form, social links, and additional information for easy communication.
 
 
-## 📱 Mobile View
+ 📱 Mobile View
 
 Fully responsive design — the entire site looks great and stays user-friendly on phones and tablets too!
 <img width="514" height="800" alt="image" src="https://github.com/user-attachments/assets/f9e3212d-e451-4553-9adf-a27736e173a9" />
