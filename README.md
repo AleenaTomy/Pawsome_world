@@ -4,7 +4,7 @@
 
 Welcome to **Pawsome World** — your one-stop hub for adorable dog breeds, vibrant galleries, and handy resources for every dog lover. Whether you’re researching your next furry friend or just here to enjoy cute paws, you’re in the right place!
 
-**🌐 [Live Demo](https://aleenatomy.github.io/Pawsome_world/)**
+**🌐 Explore Pawsome World(https://aleenatomy.github.io/Pawsome_world/)**
 
 ----
 
