@@ -631,7 +631,7 @@ img {
     padding: 20px;
   }
 
-  /* Paw prints smaller on mobile */
+  
   body.home::before,
   body.home::after {
     width: 80px;
