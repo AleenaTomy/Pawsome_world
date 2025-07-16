@@ -637,6 +637,23 @@ img {
     width: 80px;
     opacity: 0.05;
   }
+  .side-social {
+    flex-wrap: wrap;       /* allow wrapping if needed */
+    gap: 8px;              /* smaller gaps */
+    justify-content: flex-start; /* align left inside sidebar */
+  }
+
+  .side-social a {
+    max-width: 36px;       /* slightly smaller icons */
+    margin-right: 6px;     /* smaller margin */
+    flex-shrink: 0;
+  }
+
+  
+  .side-menu {
+    width: 180px;         
+    overflow-x: hidden;    /* prevent horizontal overflow */
+  }
 }
 
 @media (max-width: 480px) {
@@ -662,8 +679,6 @@ img {
     padding: 8px 8px;
   }
 
-  @media (max-width: 480px) {
-  
   .side-social {
     flex-wrap: wrap;       /* allow wrapping if needed */
     gap: 8px;              /* smaller gaps */
@@ -681,7 +696,5 @@ img {
     width: 180px;         
     overflow-x: hidden;    /* prevent horizontal overflow */
   }
-}
-
 }
 
