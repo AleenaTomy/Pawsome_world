@@ -554,4 +554,134 @@ img {
   background: #FFD166;
 }
 
+/* ============================
+   Responsive: Mobile adjustments
+   ============================ */
+
+@media (max-width: 1024px) {
+  /* Reduce header text size */
+  header h1 {
+    font-size: 3.5rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  /* Breed cards: 2 columns on tablets */
+  .breed-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 15px;
+  }
+
+  header h1 {
+    font-size: 2.8rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  /* Hero gallery: stack images vertically */
+  .hero-gallery {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Breed cards: 1 column on mobile */
+  .breed-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .side-menu {
+    width: 200px;
+    padding: 15px;
+  }
+
+  #side-menu-toggle {
+    top: 15px;
+    left: 15px;
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 14px;
+    font-size: 20px;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  /* Paw prints smaller on mobile */
+  body.home::before,
+  body.home::after {
+    width: 80px;
+    opacity: 0.03;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .side-nav a {
+    font-size: 1rem;
+  }
+
+  .site-footer {
+    font-size: 0.8rem;
+    padding: 8px 8px;
+  }
+
+  @media (max-width: 480px) {
+  
+  .side-social {
+    flex-wrap: wrap;       /* allow wrapping if needed */
+    gap: 8px;              /* smaller gaps */
+    justify-content: flex-start; /* align left inside sidebar */
+  }
+
+  .side-social a {
+    max-width: 36px;       /* slightly smaller icons */
+    margin-right: 6px;     /* smaller margin */
+    flex-shrink: 0;
+  }
+
+  
+  .side-menu {
+    width: 180px;         
+    overflow-x: hidden;    /* prevent horizontal overflow */
+  }
+}
+
+}
 
