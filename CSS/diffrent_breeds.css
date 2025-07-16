@@ -77,3 +77,62 @@ footer {
   color: #777;
   font-size: 0.9rem;
 }
+
+
+/* ---------- Responsive Layout ---------- */
+@media (max-width: 768px) {
+  body {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  main {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  header nav a {
+    display: block;
+    margin: 5px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header nav a {
+    font-size: 0.95rem;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
