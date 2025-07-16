@@ -1,21 +1,3 @@
-header {
-  background: #4A6572; /* Muted Royal Blue */
-  color: #fff;
-  border-radius: 0 0 20px 20px;
-  padding: 30px 20px;
-  text-align: center;
-  font-family: 'Baloo 2', cursive; 
-  border-radius: 0 0 20px 20px; 
-}
-
-/* Style the main heading inside header */
-header h1 {
-  font-size: 4.5rem; 
-  margin: 0;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-}
 
 .tagline {
   font-family: 'Poppins', sans-serif;
